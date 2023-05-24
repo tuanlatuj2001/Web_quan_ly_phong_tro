@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------------------------------------menu ----------------------------------------------*/
+#nav1 {
+    background-color: #015f95 !important;
+    height: 50px;
+    
+}
+#nav2{
+    background-color:#02a2ff;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+
+/*----------------------------------------------sub-menu----------------------------------------------*/
+#navbarDropdown {
+    color: white;
+    font-weight: 700;
+    text-align: center;
+
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: white;
+	z-index: 1;
+	list-style: none;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+#navbarDropdown:hover {
+    color: rgb(33, 200, 61);
+}
+
+.logo {
+    padding-right: 50px;
+}
+
+
+
+/* -------------------------------------------nut quan ly tai khoan---------------------------------------- */
+.btn1 {
+    margin-left: 3px;
+    border: 0;
+}
+.btn1 {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #3961fb;
+    background: #3961fb;
+    font-weight: 700;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 10px;
+    margin: 0;
+}
+
+#quanlytkbutton, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+
+    margin: 0;
+}
+#quanlytk li, ol, ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#quanlytk li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+#quanlytk a {
+    text-decoration: none;
+}
+#quanlytk{
+    padding-left: 500px;
+    padding-top: 15px;
+}
+
+
+/* ------------------------------------------------header--------------------------------------------------- */
+.header {
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    display: flex;
+    
+}
+ .login , .text-hello {
+    line-height: 70px;}
+
+.text-hello {
+    padding-left:400px;
+}
+
+.login {
+    padding-left: 400px;
+    float: left;
+}
+
+.login a {
+    text-decoration: none;
+    padding: 7px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+    background-color: red;
+}
+
+.container {
+    width: 1000px;
+    margin: 50px auto;
+
+}
+
+.timkiem {
+    background: #006b9b;
+    background-image: linear-gradient(to right, #005689, #006b9b, #007baa, #0078a8, #00588b);
+    width: 83%;
+    height: 130px;
+    border-radius: 10px;
+    margin: auto;
+
+}
+
+.tk1 {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+}
+
+.tk2 {
+    margin-left: 30px;
+}
+
+.tk2 select {
+    border-radius: 5px;
+}
+
+.tk1 input {
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+#btn {
+    text-decoration: none;
+    border: 1px solid #006b9b;
+    color: #f5f5f5;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: red;
+    font-weight: 700;
+}
+
+.container-fluid {
+    padding-top: 50px;
+}
+
+.section-header .section-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.active {
+    border: solid 1px;
+    border-radius: 10px;
+    background-color: #006b9b;
+    color: white;
+    padding: 3px;
+    margin-left: 10px;
+}
+
+.post-sort a {
+    text-decoration: none;
+    color: white;
+}
+
+.post-sort {
+    padding-top: 5px;
+}
+
+table,
+tr,
+td {
+    border: solid 1px black;
+}
+
+.post {
+    padding-top: 30px;
+}
+
+.img-post {
+    width: 300px;
+}
+
+.post-info {
+    width: 700px;
+}
+
+.title {
+    padding-top: 50px;
+}
+/*---------------------------------------------- Contact ----------------------------------------------*/
+.comtact {
+    margin-top: 50px;
+}
+
+.support-bg {
+    height: 150px;
+    background: url(../img/support-bg.jpg) center no-repeat;
+    background-image: url(../img/support-bg.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-size: contain;
+}
+
+.list-support {
+    text-align: center;
+    padding: 0 10px;
+    margin-top: 30px;
+}
+
+.list-support-title {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #233762;
+}
+
+.list-support-title {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #233762;
+}
+
+.support-item {
+    margin-bottom: 25px;
+    width: 33%;
+    float: left;
+}
+
+.support-item a {
+    display: block;
+    color: #233762;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+.support-item-title {
+    font-weight: 700;
+    display: block;
+    margin-bottom: 10px;
+    color: #f60;
+    text-transform: uppercase;
+}
+
+.section-support {
+    border: 7px dashed #e8eefc;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+/* -------------------------------footer ----------------------------------------------*/
+#page-footer {
+    background-color: #fff;
+    color: #333;
+    font-size: .9rem;
+    position: relative;
+    z-index: 0;
+    margin-top: 50px;
+}
+
+#page-footer .page-footer-content .inner {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.footer-col.first {
+    width: 34%;
+    float: left;
+}
+
+#page-footer .footer-col {
+    width: 22%;
+    float: left;
+    padding-right: 20px;
+}
+
+#page-footer .footer-col .footer-col-title {
+    font-weight: 700;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.social-links a>i {
+    margin-right: 5px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+}
+
+.social-fb i {
+    background-image: url(../img/icon_facebook.svg);
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.social-youtube i {
+    background-image: url(../img/icon_youtube.svg);
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.social-zalo i {
+    background-image: url(../img/icon_zalo.svg);
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.social-viber i {
+    background-image: url(../img/icon_viber.svg);
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.social-twitter i {
+    background-image: url(../img/icon_twitter.svg);
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer-col li {
+    list-style: none;
+}
+
+.footer-col li a {
+    text-decoration: none;
+}
+
+#page-footer .footer-company {
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+/* -------------------------------------------------Đăng nhập---------------------------------------------- */
+.section1 {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    width: 600px;
+    height: 500px;
+    margin: 0px auto;
+}
+.section-title-big{
+    font-weight: 700;
+}
+.section-content label{
+    font-size: 20px;
+    font-weight: 50px;
+    margin-bottom: 10px;
+}
+.section-content input{
+    height: 50px;
+    margin-bottom: 20px;
+}
+.btn2 {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #3961fb;
+    background: #3961fb;
+    font-weight: 700;
+    color: #fff;
+    width: 558px;
+    height: 50px;
+    padding: 0 10px;
+    margin-bottom: 30px;
+ 
+}
+.user-avatar-preview {
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fafafa;
+    background-color: #cbe9f1;
+    padding-left: 50px;
+
+}

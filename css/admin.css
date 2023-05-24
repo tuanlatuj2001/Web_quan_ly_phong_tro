@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s;
+  }
+  #mainnav{
+    padding: 10px;
+    margin: 10px;
+  }
+  #mainnav ul{
+    background: #015f95;
+    list-style: none;
+    padding: 0px;
+    width: 210px;
+    text-align: left;
+  }
+  #mainnav ul li{
+    position: relative;
+    width: 210px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc; 
+    color: #ebecd0;
+  }
+  #mainnav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0 16px;
+    display: block;
+    
+  }
+  #mainnav li:hover{
+    background: #17306E;
+  }
+  #mainnav .sub-menu{
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    width: 210px;
+    display: none;
+    text-align: left;
+    border-left: 1px solid #fff;
+    font-size: 90%;
+    background: #015f95;
+  }
+  #mainnav .sub-menu{
+
+    width: 210px;
+  }
+  #mainnav li:hover .sub-menu{
+    display: block;
+    background: #015f95;
+    color: red;
+  }
+  #mainnav .sub-menu2{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 210px;
+    border-left: 1px solid #fff;
+
+    display: none;
+  }
+  #mainnav .sub-menu li:hover .sub-menu2{
+    display: block;
+  }
+  #mainnav .sub-menu3{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 210px;
+    border-left: 1px solid #fff;
+
+    display: none;
+  }
+  #mainnav .sub-menu2 li:hover .sub-menu3{
+    display: block;
+  }
+  .Dashbord{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #1B548D;
+    background: #E6F0F3;
+    margin: -10px -10px 0 -10px;
+    padding: 10px 12px;
+    border-bottom: 1px solid #B3CBD6;
+    -moz-border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+  }
+  .box{
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+    margin-left: -8px;
+    height: 1000px;
+  }
+  .dx a{
+    text-decoration: none;
+    color: white;
+    line-height: 70px;
+    padding: 5px;
+    border-left: 1px solid white;
+  }
+  .dx{
+    padding-left: 1600px;
+  }
